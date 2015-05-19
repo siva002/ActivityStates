@@ -7,6 +7,18 @@
     tools:context="com.example.sivaprasad.myapplication.Activity2">
 
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 3 ( Dialog Pop-up )"
+        android:id="@+id/button_activity3"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="161dp"
+        android:onClick="onClickActivity3"/>
+
 
 </RelativeLayout>

@@ -22,11 +22,39 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Activity 3"
+        android:text="Activity 3 ( Dialog Pop-up )"
         android:id="@+id/button_activity3"
         android:layout_below="@+id/button_activity2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="64dp"
         android:onClick="onClickActivity3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Activity 1"
+        android:id="@+id/textview_activity1"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Activity 2"
+        android:id="@+id/textview_activity2"
+        android:layout_below="@+id/textview_activity1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Activity 3"
+        android:id="@+id/textview_activity3"
+        android:layout_below="@+id/textview_activity2"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
